@@ -10,6 +10,9 @@
 
 const Header = () => (
     <div id='name'>
+        <head>
+            <title>Haneya Khan</title>
+        </head>
         <a href='/' style={{textDecoration: 'none'}}><h1 style={nameStyle}>haneya khan</h1></a>
     </div>
 )

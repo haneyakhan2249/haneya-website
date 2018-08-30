@@ -25,7 +25,7 @@ const About = () => (
         <div id='name' style={textStyle}>
             <h3 style={headingStyle}>A LITTLE ABOUT ME</h3>
             <p>
-                I am a <a>computer scientist</a> passionate about <a>finding solutions to complex, real world challenges</a> using <a>data science and analytics, FinTech, DevOps, and more</a>!
+                I am a <a>computer scientist</a> passionate about <a>finding solutions to complex, real world problems</a> using <a>data science and analytics, FinTech, DevOps, and more</a>!
                 <br/>
                 <br/>
                 This motivates me to <a>continuously learn new technologies and adopt new skill sets</a>. I believe that continuous learning, along with user/market centered product design, good development practices, and effective deployment pipelines, creates the perfect avenue for innovation!

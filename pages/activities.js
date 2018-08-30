@@ -35,7 +35,7 @@ const Activities= () => (
                 <br/>
                 <b style={{color: 'black'}}>Teaching Intern, UT Dallas (Fall 2017)</b>
                 <br/>
-                Assist with teaching an intro engineering/computer science class.
+                Co-taught an intro engineering/computer science class.
                 <br/>
                 <br/>
                 <b style={{color: 'black'}}>Speakers Club, President (2015 - 2018)</b>

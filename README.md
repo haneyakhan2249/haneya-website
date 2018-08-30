@@ -1,12 +1,10 @@
 # haneya-website
 
-### my personal site!
+### my personal site!  
 
 built using:
  - react
- - ...
 
- deployed using:
- - ...
+deployed using:
+ - zeit (now)
  
-note: i'm not a frontend developer by trade so i'm still learning! 

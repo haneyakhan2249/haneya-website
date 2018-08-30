@@ -33,7 +33,11 @@ const panelStyle = {
 const Links = () => (
 
     <div id='link bar' style={panelStyle}>
-    {/* <hr></hr> */}
+
+        <head>
+            <title>Haneya Khan</title>
+        </head>
+
         <div id='links' style={linkStyle}>
             <ul style={listStyle}>
                 <li style={elemStyle}><a href='/about' style={linkTextStyle}>ABOUT</a></li>
@@ -42,8 +46,7 @@ const Links = () => (
                 <li style={elemStyle}><a href='/contact' style={linkTextStyle}>CONTACT</a></li>
             </ul>
         </div>
-    {/* <hr></hr> */}
-
+        
     </div>
 )
 

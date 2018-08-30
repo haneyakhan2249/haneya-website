@@ -8,7 +8,14 @@
   },
   "dependencies": {
     "next": "^6.1.1",
+    "now": "^11.4.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
+  },
+  "now": {
+    "alias": [
+      "haneyakhan.com",
+      "www.haneyakhan.com"
+    ]
   }
 }
