@@ -34,7 +34,7 @@ const Contact = () => (
             <h3 style={headingStyle}>REACH OUT TO ME!</h3>
             <br/>
             <p>
-                I am seeking challenging career oppotunities for after graduation (May 2019) and would love to hear from you!
+                I am seeking challenging career oppotunities for after graduation (May 2019), and would love to hear from you!
                 <br/>
                 <div>
                     <ul style={{ textAlign: 'center' }}>
