@@ -21,7 +21,7 @@ const panelStyle = {
  const linkTextStyle = {
     textDecoration: 'none', 
     color: 'black',
-    fontSize: '25px'
+    fontSize: '15px'
  }
 
  const elemStyle = {
@@ -40,11 +40,14 @@ const Links = () => (
 
         <div id='links' style={linkStyle}>
             <ul style={listStyle}>
+                <li style={elemStyle}><a href='/index' style={linkTextStyle}>HOME</a></li>
                 <li style={elemStyle}><a href='/about' style={linkTextStyle}>ABOUT</a></li>
+                <li style={elemStyle}><a href='/education' style={linkTextStyle}>EDUCATION</a></li>
                 <li style={elemStyle}><a href='/work' style={linkTextStyle}>WORK</a></li>
                 <li style={elemStyle}><a href='/activities' style={linkTextStyle}>ACTIVITIES</a></li>
                 <li style={elemStyle}><a href='/contact' style={linkTextStyle}>CONTACT</a></li>
             </ul>
+            <hr/>
         </div>
         
     </div>

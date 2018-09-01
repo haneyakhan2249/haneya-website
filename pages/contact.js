@@ -1,23 +1,22 @@
 /** Contact page. */
 
 import Header from '../components/Header'
+import Links from '../components/Links'
 
 const headingStyle = {
     textAlign: 'center',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
-    color: 'black'
+    color: '#cc0000'
  } 
 
-const textStyle = {
+ const panelStyle = {
     textAlign: 'justify',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     fontSize: '20px',
-    color: 'black',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
+    width: '60%',
+    margin: 'auto'
  }
+ 
 
 const listStyle = {
     display: 'inline',
@@ -27,13 +26,15 @@ const listStyle = {
 
 const Contact = () => (
     <div>
+        
+        <Links></Links>
 
-        <Header></Header>
-
-        <div id='name' style={textStyle}>
+        <div id='name' style={panelStyle}>
+            <br/>
             <h3 style={headingStyle}>REACH OUT TO ME!</h3>
+            <br/>
             <p>
-                I'm looking for a job for after graduation (May 2019) and would love to here from you!
+                I am seeking challenging career oppotunities for after graduation (May 2019) and would love to hear from you!
                 <br/>
                 <div>
                     <ul style={{ textAlign: 'center' }}>

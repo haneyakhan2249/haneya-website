@@ -1,29 +1,31 @@
 /** About page. */
 
 import Header from '../components/Header'
+import Links from '../components/Links'
 
 const headingStyle = {
     textAlign: 'center',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
+    color: '#cc0000'
  } 
 
-const textStyle = {
+const panelStyle = {
     textAlign: 'justify',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     fontSize: '20px',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
+    width: '60%',
+    margin: 'auto'
  }
 
 const Work = () => (
     <div>
 
-        <Header></Header>
+        <Links></Links>
 
-        <div id='name' style={textStyle}>
+        <div id='name' style={panelStyle}>
+        <br/>
         <h3 style={headingStyle}>INTERNSHIPS AND RESEARCH</h3>
+        <br/>
             <p>
                 I’ve spent the past few years exploring different fields and technologies.
                 <br/>

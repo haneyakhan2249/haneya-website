@@ -1,7 +1,7 @@
 /** Header component. */
 
  const nameStyle = {
-    textAlign: 'left',
+    textAlign: 'center',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     color: '#cc0000',
     padding: 10

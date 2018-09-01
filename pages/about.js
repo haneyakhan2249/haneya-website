@@ -1,38 +1,35 @@
 /** About page. */
 
-import Header from '../components/Header'
+import Links from '../components/Links'
 
 const headingStyle = {
     textAlign: 'center',
-    fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif'
+    fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
+    color: '#cc0000'
  } 
 
-const textStyle = {
+ const panelStyle = {
     textAlign: 'justify',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     fontSize: '20px',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
+    width: '60%',
+    margin: 'auto'
  }
 
 const About = () => (
     <div>
 
-        <Header></Header>
+        <Links></Links>
 
-        <div id='name' style={textStyle}>
+        <div id='name' style={panelStyle}>
+            <br/>
             <h3 style={headingStyle}>A LITTLE ABOUT ME</h3>
+            <br/>
             <p>
                 I am a <a>computer scientist</a> passionate about <a>finding solutions to complex, real world problems</a> using <a>data science and analytics, FinTech, DevOps, and more</a>!
                 <br/>
                 <br/>
-                This motivates me to <a>continuously learn new technologies and adopt new skill sets</a>. I believe that continuous learning, along with user/market centered product design, good development practices, and effective deployment pipelines, creates the perfect avenue for innovation!
-                <br/>
-                <br/>
-                I am currently a senior at the <a>University of Texas at Dallas</a> graduating in <a>May 2019</a> with a major in <a>computer science and a minor in finance</a>. 
-
+                This motivates me to <a>continuously learn evolving technologies and adopt new skill sets</a>. I believe that continuous learning, along with user/market centered product design, good development practices, and effective deployment pipelines, creates the perfect avenue for exceeding both company and customer expectations!
             </p>
         </div>
 

@@ -1,31 +1,33 @@
 /** About page. */
 
 import Header from '../components/Header'
+import Links from '../components/Links'
 
 const headingStyle = {
     textAlign: 'center',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
+    color: '#cc0000'
  } 
 
-const textStyle = {
+ const panelStyle = {
     textAlign: 'justify',
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     fontSize: '20px',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
+    width: '60%',
+    margin: 'auto'
  }
 
 const Activities= () => (
     <div>
 
-        <Header></Header>
+        <Links></Links>
 
-        <div id='name' style={textStyle}>
+        <div id='name' style={panelStyle}>
+        <br/>
         <h3 style={headingStyle}>ACTIVITIES</h3>
+        <br/>
             <p>
-                Outside of school and internships, I'm involved in a few different organizations and activities.
+                Outside of classes, research, and internships, I'm involved in a few different organizations and activities.
                 <br/>
                 <br/>
                 <b>Tutor, ICNA (March 2018 - current)</b>
@@ -36,6 +38,11 @@ const Activities= () => (
                 <b style={{color: 'black'}}>Teaching Intern, UT Dallas (Fall 2017)</b>
                 <br/>
                 Co-taught an intro engineering/computer science class.
+                <br/>
+                <br/>
+                <b style={{color: 'black'}}>Speech and Debate (2011 - 2015)</b>
+                <br/>
+                Competed at the local, state, and national levels.  
                 <br/>
                 <br/>
                 <b style={{color: 'black'}}>Speakers Club, President (2015 - 2018)</b>
