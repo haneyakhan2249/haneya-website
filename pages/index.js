@@ -7,10 +7,9 @@ import Links from '../components/Links'
     fontFamily: '"Lucida Sans Unicode", "Lucida Grande", sans-serif',
     fontSize: '50px',
     color: '#cc0000',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
+    width: '60%',
+    margin: 'auto',
+    padding: '200px'
  }
 
 const Index = () => (

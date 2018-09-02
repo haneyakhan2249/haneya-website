@@ -29,7 +29,7 @@ const About = () => (
                 I am a <a>computer scientist</a> passionate about <a>finding solutions to complex, real world problems</a> using <a>data science and analytics, FinTech, DevOps, and more</a>!
                 <br/>
                 <br/>
-                This motivates me to <a>continuously learn evolving technologies and adopt new skill sets</a>, with a focus on <a>user/market centered product design and good development practices</a>. Combining my passion for computer science with my strong communication and presentation skills creates the perfect avenue for exceeding both company and customer expectations!
+                I am motivated to <a>continuously learn evolving technologies and adopt new skill sets</a>, all while focusing on <a>user/market centric products and good development practices</a>. Combining my passion for computer science with my strong communication and presentation skills prepares me to exceed both company and customer expectations!
             </p>
         </div>
 

@@ -32,7 +32,7 @@ const Work = () => (
                 <br/>
                 <b>IBM Extreme Blue Intern (2018)</b>
                 <br/>
-                At IBM, I designed and developed a visualization application that extracts data from collaboration tools to show how people work. I led <a>DevOps engineering</a> within the team and worked on <a>data ingestion and extraction</a> problems. From start to finish, this project included user interviews and mockups for product design, data ingestion and integration, data visualization, managing continuous integration and deployment, and finally, a product pitch!
+                At IBM, I designed and developed a visualization application that extracts data from collaboration tools to show how people work. I led <a>DevOps engineering</a> within the team and worked on <a>data ingestion and extraction</a> problems. From start to finish, this project included user interviews and mockups for product design, data ingestion and integration, data visualization, managing continuous integration and deployment, etc. I also pitched the product to executives weekly, and then presented and demoed at the Extreme Blue Expo in NYC at the end of the summer.
                 <br/>
                 <b>Technologies I worked with:</b> <a>Python, React, Docker, Flask, GraphQL, Travis CI, Kubernetes, etc</a>.
                 <br/>
