@@ -9,7 +9,7 @@ import Links from '../components/Links'
     color: '#cc0000',
     width: '60%',
     margin: 'auto',
-    padding: '200px'
+    padding: '150px'
  }
 
 const Index = () => (
