@@ -27,7 +27,7 @@ const Education = () => (
             <h3 style={headingStyle}>EDUCATION</h3>
             <br/>
             <p>
-                I am currently a senior at the <a>University of Texas at Dallas</a> graduating in <a>May 2019</a> with a major in <a>computer science and a minor in finance</a>. 
+                I am currently a senior at the <a>University of Texas at Dallas</a> graduating in <a>May 2019</a> with a B.S. in <a>computer science.</a>. 
                 <br/>
                 <br/>
                 <a>Relevant Coursework:</a>
