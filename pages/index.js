@@ -15,10 +15,10 @@ import Links from '../components/Links'
 const Index = () => (
     <div>
 
-        <Links></Links>
+        {/*<Links></Links>*/}
 
         <div id='name' style={textStyle}>
-            <h1>hello, i'm haneya khan.</h1>
+            <h1>hello, i'm haneya khan :)</h1>
         </div>
         
     </div>
