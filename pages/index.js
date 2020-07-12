@@ -17,8 +17,8 @@ const Index = () => (
                     #content {
                         width: 100%;
                         position: absolute;
-                        left: 0;
-                        right: 0;
+                        left: 20;
+                        right: 20;
                         top: 40%;
                         margin: auto;
 
