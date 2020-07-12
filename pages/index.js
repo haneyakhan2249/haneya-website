@@ -5,8 +5,8 @@ const Index = () => (
     <div id='wrapper'>
         <div id='content'>
 
-                hello, i'm haneya khan
-
+                <h1>hello, i'm haneya khan</h1>
+                <p>work in progress :)</p>
                 <style jsx>{`
 
                     @font-face {
@@ -19,19 +19,29 @@ const Index = () => (
                         position: absolute;
                         left: 20;
                         right: 20;
-                        top: 40%;
+                        top: 30%;
+                        bottom: 20;
                         margin: auto;
 
                         /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
                         max-width: 100%;
                         max-height: 100%;
                         overflow: auto;
+                    }
 
-                        color: green;
+                    h1 {
+                        color: black;
                         font-family: 'Raleway', sans-serif;
                         font-size: 50px;
                         text-align: center;
-                }
+                    }
+
+                    p {
+                        color: black;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 20px;
+                        text-align: center;
+                    }
                     
 
                     `}</style>
