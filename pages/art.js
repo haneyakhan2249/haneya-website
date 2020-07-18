@@ -15,28 +15,62 @@ class Art extends React.Component {
     Sketch = (p) => {
   
        p.setup = () => {
-        p.createCanvas(1000, 1000);
+        p.createCanvas(720, 400);
+        p.background(255);
+        p.noStroke();
        }
   
        p.draw = () => {
 
-        if (p.mouseIsPressed) {
-            p.fill(200);
-          } else {
-            p.fill(255);
-          }
-          p.ellipse(p.mouseX, p.mouseY, 10, 10);
-       }
+        p.background(255);
+
+        let from = p.color(255, 0, 0, 0.2 * 255);
+        let to = p.color(0, 0, 255, 0.2 * 255);
+        let c1 = p.lerpColor(from, to, 0.33);
+        let c2 = p.lerpColor(from, to, 0.66);
+
+        for (let i = 0; i < 15; i++) {
+            p.fill(from);
+            p.quad(
+                p.random(-40, 220), p.random(p.height),
+                p.random(-40, 220), p.random(p.height),
+                p.random(-40, 220), p.random(p.height),
+                p.random(-40, 220), p.random(p.height)
+            );
+            p.fill(c1);
+            p.quad(
+                p.random(140, 380), p.random(p.height),
+                p.random(140, 380), p.random(p.height),
+                p.random(140, 380), p.random(p.height),
+                p.random(140, 380), p.random(p.height)
+            );
+            p.fill(c2);
+            p.quad(
+                p.random(320, 580), p.random(p.height),
+                p.random(320, 580), p.random(p.height),
+                p.random(320, 580), p.random(p.height),
+                p.random(320, 580), p.random(p.height)
+            );
+            p.fill(to);
+            p.quad(
+                p.random(500, 760), p.random(p.height),
+                p.random(500, 760), p.random(p.height),
+                p.random(500, 760), p.random(p.height),
+                p.random(500, 760), p.random(p.height)
+            );
+        }
+        p.frameRate(5);
+    }
     }
   
   
     render() {
       return (
         <div>
+        <div id='art' ref={this.myRef}>
+
         <h1>hello, i'm haneya khan</h1>
         <p>work in progress :)</p>
-        <div ref={this.myRef}>
-            {/* <Link href='index'><a>go back!</a></Link> */}
         </div>
         <style jsx>{`
 
@@ -81,8 +115,11 @@ class Art extends React.Component {
                         text-align: center;
                     }
 
-                    Link {
-                        text-align: center;
+
+                    #art {
+                        margin: auto;
+                        border: 3px solid green;
+                        padding: 10px;
                     }
                     
 
