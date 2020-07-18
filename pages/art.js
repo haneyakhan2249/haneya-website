@@ -1,16 +1,44 @@
-/* Main page */
+import Link from 'next/link';
+import p5 from 'p5';
 
-import Link from 'next/link'
+class Art extends React.Component {
 
-const Index = () => (
+    constructor(props) {
+      super(props)
+      this.myRef = React.createRef()
+    }
+  
+    componentDidMount() {
+        this.myP5 = new p5(this.Sketch, this.myRef.current)
+      }
 
+    Sketch = (p) => {
+  
+       p.setup = () => {
+        p.createCanvas(1000, 1000);
+       }
+  
+       p.draw = () => {
 
-        <div id='content'>
-
-                <h1>hello, i'm haneya khan</h1>
-                <p>work in progress :)</p>
-                <Link href='art'><a>click here!</a></Link>
-                <style jsx>{`
+        if (p.mouseIsPressed) {
+            p.fill(200);
+          } else {
+            p.fill(255);
+          }
+          p.ellipse(p.mouseX, p.mouseY, 10, 10);
+       }
+    }
+  
+  
+    render() {
+      return (
+        <div>
+        <h1>hello, i'm haneya khan</h1>
+        <p>work in progress :)</p>
+        <div ref={this.myRef}>
+            {/* <Link href='index'><a>go back!</a></Link> */}
+        </div>
+        <style jsx>{`
 
                     @font-face {
                         font-family: 'Raleway';
@@ -59,9 +87,10 @@ const Index = () => (
                     
 
                     `}</style>
-
         </div>
+      )
+    }
 
-  )
-  
-  export default Index
+  }
+
+  export default Art
